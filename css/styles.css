@@ -1,9 +1,11 @@
 .card {
-  height: 450px;
+  height: 400px;
+  text-align: center;
 }
 
 .definitions {
   display: none;
+
 }
 
 .applycolor {

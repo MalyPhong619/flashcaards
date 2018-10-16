@@ -4,8 +4,16 @@ $(document).ready(function() {
     $(this).children("h3").toggle();
     $(this).children(".definitions").toggle();
   });
-  $(".col-md-3").click(function() {
-    $(this).children(".card").toggle("applycolor");
-    $(this).children(".card").toggle("");
+
+  // $(".col-md-3").click(function() {
+  //   $(this).children(".card").toggle("applycolor");
+  //   $(this).children(".card").toggle("");
+  // });
+
+  $("body").click(function() {
+    $(".whatever").append('<div class="col-md-3">' +
+      '<div class="card jumbotron">');
+
   });
+
 });
