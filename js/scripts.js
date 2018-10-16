@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   $("body").click(function() {
     $(".whatever").append('<div class="col-md-3">' +
-      '<div class="card jumbotron">');
+      '<div class="card jumbotron">' + '<h3>New Definition</h3>' + '</div></div>');
 
   });
 
