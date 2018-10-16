@@ -11,8 +11,8 @@ $(document).ready(function() {
   // });
 
   $("body").click(function() {
-    $(".whatever").append('<div class="col-md-3">' +
-      '<div class="card jumbotron">' + '<h3>New Definition</h3>' + '</div></div>');
+    $(".row").append('<div class="col-md-3">' +
+      '<div class="card jumbotron newcardz">' + '<h3>New Definition</h3>' + '</div></div>');
 
   });
 

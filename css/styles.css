@@ -11,3 +11,33 @@
 .applycolor {
   color: blue;
 }
+
+footer {
+  align-items: baseline;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  align-items: flex-start;
+  background-color: black;
+  top: 0;
+  color: white;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: +1;
+}
+
+.container {
+  padding-bottom: 50px;
+  padding-top: 65px;
+}
+
+.newcardz {
+  background-color: green;
+}
